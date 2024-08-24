@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea Digital - Creación de Contenido</title>
+    <meta name="description" content="Crea Digital es una plataforma para la creación de contenido, desde pre hasta postproducción.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Crea Digital</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Crea Digital</h2>
+        <p>Tu aliado en la creación de contenido digital, desde la preproducción hasta la postproducción.</p>
+        <a href="#servicios" class="boton">Ver Servicios</a>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Preproducción</h3>
+            <p>Planificación y desarrollo de conceptos para tus proyectos audiovisuales.</p>
+        </div>
+        <div class="servicio">
+            <h3>Producción</h3>
+            <p>Grabación y creación de contenido visual y sonoro.</p>
+        </div>
+        <div class="servicio">
+            <h3>Postproducción</h3>
+            <p>Edición, retoque y finalización de tus proyectos de contenido.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Nuestro Trabajo</h2>
+        <div class="portfolio-item">
+            <img src="img/proyecto1.jpg" alt="Proyecto 1">
+            <p>Proyecto 1 - Descripción breve.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="img/proyecto2.jpg" alt="Proyecto 2">
+            <p>Proyecto 2 - Descripción breve.</p>
+        </div>
+        <!-- Agrega más elementos según sea necesario -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Crea Digital. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Términos de Servicio</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
